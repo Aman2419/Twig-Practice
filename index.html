@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Twig Assignment</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Progress Bar</h2>
+        <div id="bar-body">
+            <div id="bar">
+                <div id="bar-fill"></div>
+            </div>
+            <label id="percentage">0%</label> 
+        </div>
+        <br><br>
+        <div>
+            <label>Time</label>
+            <input type="number" id="Time">
+        </div>
+        <br><br>
+        <div>
+            <button id="start" onclick="startAndResume()">Start Time</button>
+            <button id="pause" onclick="pause()">Pause Time</button>
+            <button id="resume" onclick="startAndResume()">Resume Time</button>
+            <button id="reset" onclick="reset()">Reset Time</button>
+        </div>
+
+        <script src='index.js'></script>
+    </body>
+</html>

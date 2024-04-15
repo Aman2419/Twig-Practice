@@ -1,0 +1,19 @@
+#bar-body{
+    display: flex;
+}
+#bar {
+    width: 300px;
+    height: 15px;
+    background-color: white;
+    border: 0.5px solid darkgreen;
+    border-radius: 10px;
+}
+#bar-fill {
+    width: 0%;
+    height: 100%;
+    background-color: navy;
+    border-radius: inherit;
+}
+#percentage {
+    padding-left: 10px;
+}
